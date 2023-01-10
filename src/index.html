@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice SMACSS 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e66088d32a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <header>
+      <div class="l-topbar">
+        <div class="l-container">
+          <div class="l-columns">
+            <div class="l-halfcol">
+              <ul class="social">
+                <li>
+                  <a class="social-link" href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-link" href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-link" href="#">
+                    <i class="fa fa-dribbble"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-link" href="#">
+                    <i class="fa fa-vimeo"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-link" href="#">
+                    <i class="fa fa-tumblr"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="l-halfcol">
+              <div class="account">
+                <a class="account-link" href="#">Log in</a>
+                <small class="account-separator">or</small>
+                <a class="account-link" href="#">Create an account</a>
+              </div>
+              <div class="search">
+                <a href="#"><i class="fa fa-search"></i></a>
+              </div>
+              <div class="cart">
+                <a href="#">
+                  <i class="cart-icon fa fa-shopping-cart"></i>
+                  <span>$0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-header">
+        <div class="l-header">
+          <div class="l-container">
+            <div class="l-columns">
+              <div class="l-halfcol">
+                <h2 class="branding">
+                  <img src="img/bigbag.svg" alt="Bigbag logo" />
+                </h2>
+              </div>
+              <div class="l-halfcol">
+                <nav>
+                  <ul class="prinav">
+                    <li><a class="prinav-link" href="#">Home</a></li>
+                    <li><a class="prinav-link" href="#">Women</a></li>
+                    <li><a class="prinav-link" href="#">Men</a></li>
+                    <li><a class="prinav-link" href="#">Blog</a></li>
+                    <li><a class="prinav-link" href="#">About us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-subheader">
+        <div class="l-container">
+          <div class="l-columns">
+            <div class="l-halfcol">
+              <h2 class="category">Shoes</h2>
+            </div>
+            <div class="l-halfcol">
+              <ul class="breadcrumbs">
+                <li><a class="breadcrumbs-link" href="#">Home</a>&nbsp;</li>
+                <li>/ Shoes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="l-main">
+      <div class="l-container">
+        <div class="l-columns">
+          <div class="l-smallcol">
+            <div class="gallery">
+              <img
+                class="gallery-main"
+                src="img/product-slide-big-01.jpg"
+                alt="Old Skool Navy"
+              />
+              <ul class="gallery-nav">
+                <li class="gallery-nav-item">
+                  <a href="#"><img src="img/product-slide-small-01.jpg" /></a>
+                </li>
+                <li class="gallery-nav-item">
+                  <a href="#"><img src="img/product-slide-small-02.jpg" /></a>
+                </li>
+                <li class="gallery-nav-item">
+                  <a href="#"><img src="img/product-slide-small-03.jpg" /></a>
+                </li>
+                <li class="gallery-nav-item">
+                  <a href="#"><img src="img/product-slide-small-04.jpg" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="l-largecol">
+            <div class="product">
+              <ul class="product-actions">
+                <li>
+                  <a class="product-actions-link" href="#">
+                    <i class="product-actions-icon fa fa-reply"></i>
+                    Continue shopping
+                  </a>
+                </li>
+                <li>
+                  <a class="product-actions-link" href="#">
+                    <i class="product-actions-icon fa fa-plus"></i>
+                    Share this
+                  </a>
+                </li>
+              </ul>
+              <h1 class="product-title">Old Skool Navy</h1>
+              <div class="product-price">$149</div>
+              <p class="product-description">
+                Mauris lobortis augue ex, ut faucibus nisi mollis ac. Sed
+                volutpat scelerisque ex ut ullamcorper. Cras at velit quis
+                sapien dapibus laoreet a id odio. Sed sit amet accumsan ante, eu
+                congue metus. Aenean eros tortor, cursus quis feugiat sed
+                vestibulum.
+              </p>
+              <a class="product-addtocart" href="#">
+                Add to cart
+                <i class="product-addtocart-icon fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
