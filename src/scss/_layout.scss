@@ -1,0 +1,49 @@
+.l-topbar {
+  min-height: 35px;
+  background: #252525;
+}
+
+.l-header {
+  min-height: 88px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.l-subheader {
+  min-height: 70px;
+  background: #f0f0f0;
+}
+
+.l-main {
+  padding: 90px 0 60px;
+}
+
+.l-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.l-columns {
+  display: flex;
+}
+
+.l-halfcol {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.l-halfcol:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.l-largecol {
+  width: 60%;
+  padding: 0 15px;
+}
+
+.l-smallcol {
+  width: 40%;
+  padding: 0 15px;
+}

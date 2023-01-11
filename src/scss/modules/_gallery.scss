@@ -1,0 +1,12 @@
+.gallery-main {
+  margin-bottom: 15px;
+}
+
+.gallery-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-nav-item {
+  width: calc(100% / 4 - 15px);
+}
